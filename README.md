@@ -15,7 +15,7 @@
 
 - 📫 How to reach me **zelalemgizachew890@gmail.com**
 
-- ⚡ Fun fact **I watch sci-fi movies and enjoy walking at night.**
+- ⚡ Fun fact **I watch sci-fi movies and enjoy solving Problems.**
 
 ## 🚀 Skills
 
