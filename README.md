@@ -5,7 +5,7 @@
 
 ## :raising_hand_man: About Me
 
-- 🔭 I’m currently working on **[Hub-Take Ads](https://hubtake.com/)**
+- 🔭 I’m currently working on **[Afriopia Unified Systems](https://afriopia.com/)** | **[ZHEWUTech](http://zhewutech.com/)** | **[Saint Mary's University](https://smuc.edu.et/index.php?lang=en)**
 
 - 🌱 I’m currently learning **React and Flutter.**
 
