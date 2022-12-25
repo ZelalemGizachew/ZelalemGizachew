@@ -66,8 +66,10 @@
 <br/>
 <br/>
 
-<a href="https://github.com/ZelalemGizachew/github-readme-activity-graph"><img alt="Zelalem Gizachew's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ZelalemGizachew&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+[![Zelalem Gizachew's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=ZelalemGizachew&theme=react-dark)](https://github.com/ZelalemGizachew/github-readme-activity-graph)
 
+<!-- <a href="https://github.com/ZelalemGizachew/github-readme-activity-graph"><img alt="Zelalem Gizachew's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ZelalemGizachew&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+ -->
 <br/>
 <br/>
 
