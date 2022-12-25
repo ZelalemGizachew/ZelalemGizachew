@@ -7,7 +7,6 @@
 
 <table>
 <tr>
-<td>
     
     - 🔭 I’m currently creating my own startup[s] focused on XR & AI
 
@@ -21,7 +20,6 @@
 
     - ⚡ Fun fact **I watch sci-fi movies and enjoy solving Problems.**
 
-</td>
 </tr>
     
 <tr>
