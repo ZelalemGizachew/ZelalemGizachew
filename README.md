@@ -5,7 +5,7 @@
 
 ## :raising_hand_man: About Me
 
-- 🔭 I’m currently working on **[Afriopia Unified Systems](https://afriopia.com/)** | **[ZHEWUTech](http://zhewutech.com/)** | **[Saint Mary's University](https://smuc.edu.et/index.php?lang=en)**
+- 🔭 I’m currently creating my own startup[s] focused on XR & AI
 
 - 🌱 I’m currently learning **React and Flutter.**
 
@@ -16,6 +16,8 @@
 - 📫 How to reach me **zelalemgizachew890@gmail.com**
 
 - ⚡ Fun fact **I watch sci-fi movies and enjoy solving Problems.**
+
+<a href="https://app.daily.dev/zenonymous"><img src="https://api.daily.dev/devcards/7bd71d0c418347bba92a0de1b7433ee3.png?r=gtu" width="400" alt="Zelalem Gizachew's Dev Card"/></a>
 
 ## 🚀 Skills
 
