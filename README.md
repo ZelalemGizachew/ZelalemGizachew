@@ -23,7 +23,7 @@
 </tr>
     
 <tr>
-<a href="https://app.daily.dev/zenonymous"><img src="https://api.daily.dev/devcards/7bd71d0c418347bba92a0de1b7433ee3.png?r=gtu" width="400" alt="Zelalem Gizachew's Dev Card"/></a>
+<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/ZelalemGizachew/ZelalemGizachew/blob/master/devcard.svg" width="400" alt="Zelalem Gizachew's Dev Card"/></a>
 </tr>
 </table>
 
