@@ -60,6 +60,7 @@
 ## ⚙ Statistics and Languages 
   <br/>
     ![Zelalem Gizachew's GitHub stats](https://github-readme-stats-five-gules.vercel.app/api?username=ZelalemGizachew&count_private=true&show_icons=true&theme=radical)
+    <br/>
     [![Readme Card](https://github-readme-stats-five-gules.vercel.app/api/pin/?username=ZelalemGizachew&repo=github-readme-stats)](https://github.com/ZelalemGizachew/github-readme-stats)
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
@@ -68,7 +69,7 @@
 
 [![Top Langs](https://github-readme-stats-five-gules.vercel.app/api/top-langs/?username=ZelalemGizachew&layout=compact)](https://github.com/ZelalemGizachew/github-readme-stats)
 
-<a href="https://github.com/ZelalemGizachew/github-readme-activity-graph"><img alt="Zelalem Gizachew's Activity Graph" src="https://github-readme-stats-five-gules.vercel.app?username=ZelalemGizachew&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+<!-- <a href="https://github.com/ZelalemGizachew/github-readme-activity-graph"><img alt="Zelalem Gizachew's Activity Graph" src="https://github-readme-stats-five-gules.vercel.app?username=ZelalemGizachew&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a> -->
 
 <br/>
 <br/>
