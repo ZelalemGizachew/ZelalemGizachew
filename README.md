@@ -59,21 +59,17 @@
 
 ## ⚙ Statistics and Languages 
   <br/>
-    <a href="https://github.com/ZelalemGizachew/github-readme-stats"><img alt="Zelalem Gizachew's Github Stats" src="https://github-readme-stats.vercel.app/api?username=ZelalemGizachew&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
-    
-  <a href="https://github.com/ZelalemGizachew/github-readme-stats"><img alt="Zelalem Gizachew's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZelalemGizachew&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
+    ![Zelalem Gizachew's GitHub stats](https://github-readme-stats.vercel.app/api?username=ZelalemGizachew&count_private=true&show_icons=true&theme=radical)
+    [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ZelalemGizachew&repo=github-readme-stats)](https://github.com/ZelalemGizachew/github-readme-stats)
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 <br/>
 <br/>
 
-![Zelalem Gizachew's GitHub stats](https://github-readme-stats.vercel.app/api?username=ZelalemGizachew&count_private=true&show_icons=true&theme=radical)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ZelalemGizachew&layout=compact)](https://github.com/ZelalemGizachew/github-readme-stats)
 
-![
-![Zelalem Gizachew's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=ZelalemGizachew&theme=react-dark)](https://github.com/ZelalemGizachew/github-readme-activity-graph)]
+<a href="https://github.com/ZelalemGizachew/github-readme-activity-graph"><img alt="Zelalem Gizachew's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ZelalemGizachew&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
 
-<!-- <a href="https://github.com/ZelalemGizachew/github-readme-activity-graph"><img alt="Zelalem Gizachew's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ZelalemGizachew&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
- -->
 <br/>
 <br/>
 
