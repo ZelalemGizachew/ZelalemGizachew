@@ -59,9 +59,11 @@
 
 ## ⚙ Statistics and Languages 
   <br/>
-    ![Zelalem Gizachew's GitHub stats](https://github-readme-stats-five-gules.vercel.app/api?username=ZelalemGizachew&count_private=true&show_icons=true&theme=radical)
-    <br/>
-    [![Readme Card](https://github-readme-stats-five-gules.vercel.app/api/pin/?username=ZelalemGizachew&repo=github-readme-stats)](https://github.com/ZelalemGizachew/github-readme-stats)
+<!--   ![Zelalem Gizachew's GitHub stats](https://github-readme-stats.vercel.app/api?username=ZelalemGizachew&show_icons=true&theme=radical) -->
+  ![Zelalem Gizachew's GitHub stats](https://github-readme-stats-five-gules.vercel.app/api?username=ZelalemGizachew&count_private=true&show_icons=true&theme=radical)
+<!--  -->
+  <br/>
+   [![Readme Card](https://github-readme-stats-five-gules.vercel.app/api/pin/?username=ZelalemGizachew&repo=github-readme-stats)](https://github.com/ZelalemGizachew/github-readme-stats)
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 <br/>
