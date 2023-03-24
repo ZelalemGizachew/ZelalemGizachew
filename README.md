@@ -2,11 +2,12 @@
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Zelalem</h1>
 <h3 align="center">I'm a passionate Full Stack Developer from Ethiopia.</h3>
 
+<h2 align="center">
 ## :raising_hand_man: About Me
-
-<table>
-<tr>
-    
+</h2>
+<table align="center">
+  <tr>
+    <td>
     - 🔭 I’m currently creating my own startup[s] focused on XR & AI
 
     - 🌱 I’m currently learning **React and Flutter.**
@@ -18,13 +19,13 @@
     - 📫 How to reach me **zelalemgizachew890@gmail.com**
 
     - ⚡ Fun fact **I watch sci-fi movies and enjoy solving Problems.**
-
-</tr>
-    
-<tr>
-<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/ZelalemGizachew/ZelalemGizachew/blob/master/devcard.svg" width="400" alt="Zelalem Gizachew's Dev Card"/></a>
-</tr>
+    </td>
+    <td>
+      <a href="https://app.daily.dev/zenonymous"><img src="https://github.com/ZelalemGizachew/ZelalemGizachew/blob/master/devcard.svg" width="400" alt="Zelalem Gizachew's Dev Card"/></a>
+    </td>
+  </tr>
 </table>
+
 
 ## 🚀 Skills
 
