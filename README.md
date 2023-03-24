@@ -8,24 +8,25 @@
 <table align="center">
   <tr>
     <td>
-    - 🔭 I’m currently creating my own startup[s] focused on XR & AI
+- 🔭 I’m currently creating my own startup[s] focused on XR & AI
 
-    - 🌱 I’m currently learning **React and Flutter.**
+- 🌱 I’m currently learning **React and Flutter.**
 
-    - 👯 I’m looking to collaborate on **OpenSource Projects**
+- 👯 I’m looking to collaborate on **OpenSource Projects**
 
-    - 👨‍💻 All of my projects are available at **[My Portfolio](https://zelalemgizachew.com)**
+- 👨‍💻 All of my projects are available at **[My Portfolio](https://zelalemgizachew.com)**
 
-    - 📫 How to reach me **zelalemgizachew890@gmail.com**
+- 📫 How to reach me **zelalemgizachew890@gmail.com**
 
-    - ⚡ Fun fact **I watch sci-fi movies and enjoy solving Problems.**
-    </td>
-    <td>
-      <a href="https://app.daily.dev/zenonymous"><img src="https://github.com/ZelalemGizachew/ZelalemGizachew/blob/master/devcard.svg" width="400" alt="Zelalem Gizachew's Dev Card"/></a>
-    </td>
+- ⚡ Fun fact **I watch sci-fi movies and enjoy solving Problems.**
+</td>
+<td>
+<a href="https://app.daily.dev/zenonymous">
+<img src="https://github.com/ZelalemGizachew/ZelalemGizachew/blob/master/devcard.svg" width="400" alt="Zelalem Gizachew's Dev Card"/>
+</a>
+</td>
   </tr>
 </table>
-
 
 ## 🚀 Skills
 
