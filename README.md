@@ -46,11 +46,11 @@
     <a href="https://redux.js.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/redux.png"/> </a>
 </p> -->
 
-<!-- [![React Native Badge](https://img.shields.io/badge/-React_Native-f0f?style=for-the-badge&labelColor=black&logo=react&logoColor=f0f)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![Flutter Badge](https://img.shields.io/badge/-Flutter-104beb?style=for-the-badge&labelColor=black&logo=flutter&logoColor=104beb)](#) [![MongoDB Badge](https://img.shields.io/badge/-MongoDB-3f3e42?style=for-the-badge&labelColor=black&logo=mongodb&logoColor=3f3e42)](#)
+<!-- [![React Native Badge](https://img.shields.io/badge/-React_Native-f0f?style=for-the-badge&labelColor=black&logo=react&logoColor=f0f)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#)  [![MongoDB Badge](https://img.shields.io/badge/-MongoDB-3f3e42?style=for-the-badge&labelColor=black&logo=mongodb&logoColor=3f3e42)](#)
 
 -->
 
-[![HTML5 Badge](https://img.shields.io/badge/-HTML5-f06529?style=for-the-badge&labelColor=black&logo=html5&logoColor=f06529)](#) [![CSS3 Badge](https://img.shields.io/badge/-CSS3-2965f1?style=for-the-badge&labelColor=black&logo=css3&logoColor=2965f1)](#) [![Sass Badge](https://img.shields.io/badge/Sass-c69?style=for-the-badge&labelColor=black&logo=sass&logoColor=c69)](#) [![Bootstrap Badge](https://img.shields.io/badge/-Bootstrap-563d7c?style=for-the-badge&labelColor=black&logo=Bootstrap&logoColor=563d7c)](#) [![Tailwind Badge](https://img.shields.io/badge/-Tailwind-61DBFB?style=for-the-badge&labelColor=black&logo=tailwindcss&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![CPP Badge](https://img.shields.io/badge/-C++-044F88?style=for-the-badge&labelColor=black&logo=cplusplus&logoColor=044F88)](#) [![Java Badge](https://img.shields.io/badge/-Java-5382a1?style=for-the-badge&labelColor=black&logo=java&logoColor=5382a1)](#) [![Python Badge](https://img.shields.io/badge/-Python-4B8BBE?style=for-the-badge&labelColor=black&logo=python&logoColor=4B8BBE)](#) [![Dart Badge](https://img.shields.io/badge/-Dart-4597ce?style=for-the-badge&labelColor=black&logo=dart&logoColor=4597ce)](#) [![PHP Badge](https://img.shields.io/badge/-PHP-474A8A?style=for-the-badge&labelColor=black&logo=php&logoColor=474A8A)](#) [![MySQL Badge](https://img.shields.io/badge/-MySQL-00758F?style=for-the-badge&labelColor=black&logo=mysql&logoColor=00758F)](#) [![Firebase Badge](https://img.shields.io/badge/-Firebase-FFA611?style=for-the-badge&labelColor=black&logo=Firebase&logoColor=FFA611)](#) [![Git Badge](https://img.shields.io/badge/-Git-f34f29?style=for-the-badge&labelColor=black&logo=git&logoColor=f34f29)](#) [![Postman Badge](https://img.shields.io/badge/-Postman-EF5B25?style=for-the-badge&labelColor=black&logo=postman&logoColor=EF5B25)](#)
+[![HTML5 Badge](https://img.shields.io/badge/-HTML5-f06529?style=for-the-badge&labelColor=black&logo=html5&logoColor=f06529)](#) [![CSS3 Badge](https://img.shields.io/badge/-CSS3-2965f1?style=for-the-badge&labelColor=black&logo=css3&logoColor=2965f1)](#) [![Sass Badge](https://img.shields.io/badge/Sass-c69?style=for-the-badge&labelColor=black&logo=sass&logoColor=c69)](#) [![Bootstrap Badge](https://img.shields.io/badge/-Bootstrap-563d7c?style=for-the-badge&labelColor=black&logo=Bootstrap&logoColor=563d7c)](#) [![Tailwind Badge](https://img.shields.io/badge/-Tailwind-61DBFB?style=for-the-badge&labelColor=black&logo=tailwindcss&logoColor=61DBFB)](#) [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Flutter Badge](https://img.shields.io/badge/-Flutter-104beb?style=for-the-badge&labelColor=black&logo=flutter&logoColor=104beb)](#) [![CPP Badge](https://img.shields.io/badge/-C++-044F88?style=for-the-badge&labelColor=black&logo=cplusplus&logoColor=044F88)](#) [![Java Badge](https://img.shields.io/badge/-Java-5382a1?style=for-the-badge&labelColor=black&logo=java&logoColor=5382a1)](#) [![Python Badge](https://img.shields.io/badge/-Python-4B8BBE?style=for-the-badge&labelColor=black&logo=python&logoColor=4B8BBE)](#) [![Dart Badge](https://img.shields.io/badge/-Dart-4597ce?style=for-the-badge&labelColor=black&logo=dart&logoColor=4597ce)](#) [![PHP Badge](https://img.shields.io/badge/-PHP-474A8A?style=for-the-badge&labelColor=black&logo=php&logoColor=474A8A)](#) [![MySQL Badge](https://img.shields.io/badge/-MySQL-00758F?style=for-the-badge&labelColor=black&logo=mysql&logoColor=00758F)](#) [![Firebase Badge](https://img.shields.io/badge/-Firebase-FFA611?style=for-the-badge&labelColor=black&logo=Firebase&logoColor=FFA611)](#) [![Git Badge](https://img.shields.io/badge/-Git-f34f29?style=for-the-badge&labelColor=black&logo=git&logoColor=f34f29)](#) [![Postman Badge](https://img.shields.io/badge/-Postman-EF5B25?style=for-the-badge&labelColor=black&logo=postman&logoColor=EF5B25)](#)
 
 <p align="center">
     <a href="https://github.com/ZelalemGizachew/github-readme-streak-stats">
@@ -60,22 +60,33 @@
 
 ## ⚙ Statistics and Languages
 
-  <br/>
-<!--   ![Zelalem Gizachew's GitHub stats](https://github-readme-stats.vercel.app/api?username=ZelalemGizachew&show_icons=true&theme=radical) -->
+<table center="align">
+<tr>
+<td>
 
 ![Zelalem Gizachew's GitHub stats](https://github-readme-stats-five-gules.vercel.app/api?username=ZelalemGizachew&count_private=true&show_icons=true&theme=radical)
 
+</td>
+<td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kunalkeshan&show_icons=true&locale=en&layout=compact&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" alt="Kunal Keshan" />       </td>
+</tr>
+</table>
+
+<!-- <div align="center">
+
+</div>
+
 <!--  -->
-  <br/>
+  <!-- <br/>
 
 [![Readme Card](https://github-readme-stats-five-gules.vercel.app/api/pin/?username=ZelalemGizachew&repo=github-readme-stats)](https://github.com/ZelalemGizachew/github-readme-stats)
 
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
-<br/>
-<br/>
+<br/> -->
+<!-- <br/> -->
 
-[![Top Langs](https://github-readme-stats-five-gules.vercel.app/api/top-langs/?username=ZelalemGizachew&layout=compact)](https://github.com/ZelalemGizachew/github-readme-stats)
+<!-- [![Top Langs](https://github-readme-stats-five-gules.vercel.app/api/top-langs/?username=ZelalemGizachew&layout=compact)](https://github.com/ZelalemGizachew/github-readme-stats) -->
 
 <!-- <a href="https://github.com/ZelalemGizachew/github-readme-activity-graph"><img alt="Zelalem Gizachew's Activity Graph" src="https://github-readme-stats-five-gules.vercel.app?username=ZelalemGizachew&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a> -->
 
