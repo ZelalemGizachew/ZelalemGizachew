@@ -65,10 +65,9 @@
 <td>
 
 ![Zelalem Gizachew's GitHub stats](https://github-readme-stats-five-gules.vercel.app/api?username=ZelalemGizachew&count_private=true&show_icons=true&theme=radical)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ZelalemGizachew)](https://github.com/ZelalemGizachew/github-readme-stats)
 </td>
 <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=kunalkeshan&show_icons=true&locale=en&layout=compact&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" alt="Kunal Keshan" />       
+      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ZelalemGizachew&show_icons=true&locale=en&layout=compact&langs_count=10&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" alt="Zelalem Gizachew" />       
 </td>
 </tr>
 </table>
