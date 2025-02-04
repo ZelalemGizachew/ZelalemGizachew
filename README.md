@@ -21,9 +21,7 @@
 - ⚡ Fun fact **I watch sci-fi movies and enjoy solving Problems.**
 </td>
 <td>
-<a href="https://app.daily.dev/zenonymous">
-<img src="https://github.com/ZelalemGizachew/ZelalemGizachew/blob/master/devcard.svg" width="400" alt="Zelalem Gizachew's Dev Card"/>
-</a>
+  <a href="https://app.daily.dev/zenonymous"><img src="https://api.daily.dev/devcards/v2/WC3-4DiTj.png?type=default&r=rqh" width="356" alt="Zelalem Gizachew's Dev Card"/></a>
 </td>
   </tr>
 </table>
