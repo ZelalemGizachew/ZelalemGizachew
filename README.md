@@ -14,7 +14,7 @@
 
 - 👯 I’m looking to collaborate on **OpenSource Projects**
 
-- 👨‍💻 All of my projects are available at **[My Portfolio](https://zelalemgizachew.com)**
+- 👨‍💻 All of my projects are available at **[My Portfolio](http://zenonymous.lovable.app/)**
 
 - 📫 How to reach me **zelalemgizachew890@gmail.com**
 
