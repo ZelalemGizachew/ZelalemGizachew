@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Zelalem Gizachew — Software Engineer</title>
+  <desc id="desc">Cyber terminal style profile banner for Zelalem Gizachew, focused on backend, fintech, Android, voice AI and open source engineering.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="0.5" stop-color="#0a1118"/>
+      <stop offset="1" stop-color="#071016"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d7ff"/>
+      <stop offset="1" stop-color="#79f2c0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#16303d" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5H1200" stroke="#ffffff" stroke-width="0.35" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#scan)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#1b3541"/>
+
+  <g opacity="0.9">
+    <circle cx="34" cy="28" r="5" fill="#ff5f57"/>
+    <circle cx="52" cy="28" r="5" fill="#febc2e"/>
+    <circle cx="70" cy="28" r="5" fill="#28c840"/>
+    <text x="96" y="33" fill="#6d8593" font-size="13" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">zelalem@github: ~/profile — system console</text>
+    <text x="1092" y="33" fill="#79f2c0" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">● ONLINE</text>
+  </g>
+
+  <g transform="translate(58 83)">
+    <text x="0" y="0" fill="#6f8795" font-size="15" letter-spacing="2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">IDENTITY // ENGINEERING NODE 0xZG</text>
+    <text x="0" y="54" fill="#f4fbff" font-size="46" font-weight="700" letter-spacing="1" font-family="Inter,Segoe UI,Arial,sans-serif">ZELALEM GIZACHEW</text>
+    <rect x="0" y="72" width="700" height="3" rx="1.5" fill="url(#cyan)" filter="url(#glow)"/>
+    <text x="0" y="108" fill="#b6cbd6" font-size="19" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">SOFTWARE ENGINEER / BUILDER</text>
+    <text x="0" y="143" fill="#46d9ff" font-size="16" letter-spacing="1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">BACKEND // FINTECH // ANDROID // VOICE AI // OPEN SOURCE</text>
+  </g>
+
+  <g transform="translate(790 80)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <rect x="0" y="0" width="348" height="194" rx="10" fill="#071017" stroke="#1f4454"/>
+    <text x="20" y="28" fill="#667f8c" font-size="12">RUNTIME::CURRENT</text>
+    <text x="20" y="59" fill="#79f2c0" font-size="14">$ status</text>
+    <text x="122" y="59" fill="#d5e7ee" font-size="14">shipping</text>
+    <text x="20" y="88" fill="#79f2c0" font-size="14">$ core</text>
+    <text x="122" y="88" fill="#d5e7ee" font-size="14">java / spring</text>
+    <text x="20" y="117" fill="#79f2c0" font-size="14">$ edge</text>
+    <text x="122" y="117" fill="#d5e7ee" font-size="14">flutter / android</text>
+    <text x="20" y="146" fill="#79f2c0" font-size="14">$ signal</text>
+    <text x="122" y="146" fill="#d5e7ee" font-size="14">livekit / agents</text>
+    <text x="20" y="175" fill="#79f2c0" font-size="14">$ mode</text>
+    <text x="122" y="175" fill="#34d7ff" font-size="14">BUILD → HARDEN → OSS</text>
+  </g>
+
+  <g transform="translate(58 314)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">
+    <text fill="#667f8c">ADDIS ABABA / ETHIOPIA</text>
+    <text x="220" fill="#385565">::</text>
+    <text x="252" fill="#667f8c">SAFARICOM ETHIOPIA</text>
+    <text x="456" fill="#385565">::</text>
+    <text x="488" fill="#667f8c">SHAGIZ TECHNOLOGIES</text>
+    <text x="705" fill="#385565">::</text>
+    <text x="737" fill="#667f8c">OPEN TO GLOBAL ENGINEERING SIGNAL</text>
+  </g>
+</svg>
