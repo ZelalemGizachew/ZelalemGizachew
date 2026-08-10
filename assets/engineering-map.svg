@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Zelalem engineering map</title>
+  <desc id="desc">A connected systems map showing backend, fintech, mobile, voice AI, and open-source engineering areas.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071016"/>
+      <stop offset="1" stop-color="#05080d"/>
+    </linearGradient>
+    <filter id="g2" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#bg2)" stroke="#183847"/>
+  <g stroke="#214857" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M208 80 C330 80 332 150 500 150"/>
+    <path d="M208 220 C330 220 332 150 500 150"/>
+    <path d="M700 150 C865 150 868 80 990 80"/>
+    <path d="M700 150 C865 150 868 220 990 220"/>
+    <path d="M600 92 V48" stroke="#2ecdf5"/>
+    <path d="M600 208 V252" stroke="#79f2c0"/>
+  </g>
+  <g fill="#34d7ff">
+    <circle cx="208" cy="80" r="4"/><circle cx="208" cy="220" r="4"/><circle cx="500" cy="150" r="4"/><circle cx="700" cy="150" r="4"/><circle cx="990" cy="80" r="4"/><circle cx="990" cy="220" r="4"/>
+  </g>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <g transform="translate(38 42)">
+      <rect width="170" height="76" rx="9" fill="#0a151d" stroke="#25556a"/>
+      <text x="16" y="26" fill="#34d7ff" font-size="13">BACKEND CORE</text>
+      <text x="16" y="50" fill="#b9cdd6" font-size="12">Java · Spring Boot</text>
+      <text x="16" y="66" fill="#738c98" font-size="11">Python · FastAPI</text>
+    </g>
+    <g transform="translate(38 182)">
+      <rect width="170" height="76" rx="9" fill="#0a151d" stroke="#25556a"/>
+      <text x="16" y="26" fill="#34d7ff" font-size="13">MOBILE SYSTEMS</text>
+      <text x="16" y="50" fill="#b9cdd6" font-size="12">Flutter · Kotlin</text>
+      <text x="16" y="66" fill="#738c98" font-size="11">Android · WorkManager</text>
+    </g>
+
+    <g transform="translate(500 92)">
+      <rect width="200" height="116" rx="14" fill="#081820" stroke="#34d7ff" stroke-width="2" filter="url(#g2)"/>
+      <text x="100" y="35" text-anchor="middle" fill="#6e8794" font-size="11">ENGINEERING NODE</text>
+      <text x="100" y="70" text-anchor="middle" fill="#f4fbff" font-size="29" font-weight="700">ZG</text>
+      <text x="100" y="95" text-anchor="middle" fill="#79f2c0" font-size="11">BUILD · SHIP · HARDEN</text>
+    </g>
+
+    <g transform="translate(990 42)">
+      <rect width="170" height="76" rx="9" fill="#0a151d" stroke="#25556a"/>
+      <text x="16" y="26" fill="#79f2c0" font-size="13">VOICE / AGENTS</text>
+      <text x="16" y="50" fill="#b9cdd6" font-size="12">LiveKit · STT/TTS</text>
+      <text x="16" y="66" fill="#738c98" font-size="11">MCP · Agent systems</text>
+    </g>
+    <g transform="translate(990 182)">
+      <rect width="170" height="76" rx="9" fill="#0a151d" stroke="#25556a"/>
+      <text x="16" y="26" fill="#79f2c0" font-size="13">OPEN SOURCE</text>
+      <text x="16" y="50" fill="#b9cdd6" font-size="12">TeleVault · LiveKit</text>
+      <text x="16" y="66" fill="#738c98" font-size="11">SDKs · tooling</text>
+    </g>
+
+    <text x="600" y="28" text-anchor="middle" fill="#34d7ff" font-size="12">FINTECH SYSTEMS</text>
+    <text x="600" y="286" text-anchor="middle" fill="#79f2c0" font-size="12">PRODUCT ENGINEERING</text>
+  </g>
+</svg>
