@@ -7,7 +7,7 @@
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-0b1117?style=for-the-badge&logo=vercel&logoColor=34D7FF)](https://zenonymous.lovable.app/)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0b1117?style=for-the-badge&logo=linkedin&logoColor=34D7FF)](https://www.linkedin.com/in/zelalem-gizachew-28012a230/)
 [![Email](https://img.shields.io/badge/EMAIL-0b1117?style=for-the-badge&logo=gmail&logoColor=79F2C0)](mailto:zelalemgizachew890@gmail.com)
-[![Shagiz](https://img.shields.io/badge/SHAGIZ_TECHNOLOGIES-0b1117?style=for-the-badge&logo=github&logoColor=79F2C0)](https://github.com/Shagiz-Technologies)
+[![Shagiz](https://img.shields.io/badge/SHAGIZ_TECHNOLOGIES-0b1117?style=for-the-badge&logo=github&logoColor=79F2C0)](https://shagiz-technologies.github.io/)
 
 **Software Engineer @ Safaricom Ethiopia** · Backend / Platform · Fintech · Android · Voice AI · Open Source
 
