@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="357" viewBox="0 0 1280 357" role="img" aria-labelledby="ttl dsc">
+<title id="ttl">Mission registry: TeleVault, LiveKit, M-Pesa SDKs, Vireon</title>
+<desc id="dsc">Custom futuristic project registry panel listing four engineering projects and their factual visibility and contribution statuses. Decorative schematic only, not realtime telemetry.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111D"/><stop offset="1" stop-color="#070D18"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#79ACC6" stroke-opacity=".045"/></pattern></defs>
+<rect width="1280" height="357" rx="15" fill="url(#bg)"/><rect width="1280" height="357" rx="15" fill="url(#grid)"/><rect x=".8" y=".8" width="1278.4" height="355.4" rx="14.2" fill="none" stroke="#30536D"/>
+<text x="27" y="39" fill="#7AFFD2" font-size="14" font-family="Consolas,monospace" letter-spacing="1.5">/SYS/MISSIONS/REGISTRY</text>
+<text x="1245" y="39" fill="#749BB5" font-size="12" font-family="Consolas,monospace" text-anchor="end">MODULE INDEX  //  STATIC PUBLIC PROFILE</text>
+<g font-family="Consolas,'Liberation Mono',monospace">
+<rect x="26" y="66" width="295" height="236" rx="11" fill="#0D1B2C" stroke="#29465B"/>
+<path d="M26 102h295" stroke="#29465B"/>
+<circle cx="43" cy="85" r="4" fill="#7DFFD3"/>
+<text x="55" y="90" font-size="13" fill="#9FBCD1">A01  /  PUBLIC OPEN SOURCE</text>
+<text x="46" y="121" font-size="22" font-weight="700" font-family="Inter,Arial,sans-serif" fill="#F2F8FF">TELEVAULT</text>
+<rect x="46" y="125" width="43" height="48" rx="6" fill="none" stroke="#7DFFD3" stroke-width="2"/><path d="M56 125v-9h23v9M56 150l10 8 13-17" fill="none" stroke="#7DFFD3" stroke-width="2"/>
+<path d="M117 134h181M117 151h155M117 168h168" stroke="#244357" stroke-width="2" stroke-dasharray="22 9"/>
+<text x="46" y="202" font-size="11" fill="#87ABC0">ANDROID / ENCRYPTED MEDIA</text>
+<path d="M46 218h255" stroke="#23465A"/>
+<text x="46" y="239" font-size="11" fill="#7DFFD3">TDLIB</text><text x="132" y="239" font-size="11" fill="#7DFFD3">WORKMANAGER</text><text x="218" y="239" font-size="10.5" fill="#7DFFD3">AES-GCM</text>
+<path d="M46 273h220" stroke="#7DFFD3" stroke-width="2" opacity=".5"/>
+<circle cx="286" cy="273" r="5" stroke="#7DFFD3" fill="none"/>
+</g><g font-family="Consolas,'Liberation Mono',monospace">
+<rect x="340" y="66" width="295" height="236" rx="11" fill="#0D1B2C" stroke="#29465B"/>
+<path d="M340 102h295" stroke="#29465B"/>
+<circle cx="357" cy="85" r="4" fill="#69DFFC"/>
+<text x="369" y="90" font-size="13" fill="#9FBCD1">A02  /  OPEN UPSTREAM PRs</text>
+<text x="360" y="121" font-size="19" font-weight="700" font-family="Inter,Arial,sans-serif" fill="#F2F8FF">ADDISAI × LIVEKIT</text>
+<path d="M361 155h9l5-20 8 38 7-43 7 25h9" stroke="#69DFFC" fill="none" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M431 134h181M431 151h155M431 168h168" stroke="#244357" stroke-width="2" stroke-dasharray="22 9"/>
+<text x="360" y="202" font-size="11" fill="#87ABC0">AFRICAN-LANGUAGE VOICE</text>
+<path d="M360 218h255" stroke="#23465A"/>
+<text x="360" y="239" font-size="11" fill="#69DFFC">STT/TTS</text><text x="446" y="239" font-size="11" fill="#69DFFC">PYTHON</text><text x="532" y="239" font-size="10.5" fill="#69DFFC">TYPESCRIPT</text>
+<path d="M360 273h220" stroke="#69DFFC" stroke-width="2" opacity=".5"/>
+<circle cx="600" cy="273" r="5" stroke="#69DFFC" fill="none"/>
+</g><g font-family="Consolas,'Liberation Mono',monospace">
+<rect x="654" y="66" width="295" height="236" rx="11" fill="#0D1B2C" stroke="#29465B"/>
+<path d="M654 102h295" stroke="#29465B"/>
+<circle cx="671" cy="85" r="4" fill="#B3A0FF"/>
+<text x="683" y="90" font-size="13" fill="#9FBCD1">A03  /  PUBLIC REPOSITORIES</text>
+<text x="674" y="121" font-size="22" font-weight="700" font-family="Inter,Arial,sans-serif" fill="#F2F8FF">M-PESA SDK SUITE</text>
+<rect x="674" y="132" width="51" height="36" rx="5" fill="none" stroke="#B3A0FF" stroke-width="2"/><path d="M679 145h41M682 159h19" stroke="#B3A0FF" stroke-width="2"/>
+<path d="M745 134h181M745 151h155M745 168h168" stroke="#244357" stroke-width="2" stroke-dasharray="22 9"/>
+<text x="674" y="202" font-size="11" fill="#87ABC0">PAYMENT INTEGRATIONS</text>
+<path d="M674 218h255" stroke="#23465A"/>
+<text x="674" y="239" font-size="11" fill="#B3A0FF">JAVA</text><text x="760" y="239" font-size="11" fill="#B3A0FF">PYTHON</text><text x="846" y="239" font-size="10.5" fill="#B3A0FF">GO + MORE</text>
+<path d="M674 273h220" stroke="#B3A0FF" stroke-width="2" opacity=".5"/>
+<circle cx="914" cy="273" r="5" stroke="#B3A0FF" fill="none"/>
+</g><g font-family="Consolas,'Liberation Mono',monospace">
+<rect x="968" y="66" width="295" height="236" rx="11" fill="#0D1B2C" stroke="#29465B"/>
+<path d="M968 102h295" stroke="#29465B"/>
+<circle cx="985" cy="85" r="4" fill="#FFC78A"/>
+<text x="997" y="90" font-size="13" fill="#9FBCD1">A04  /  PRIVATE DEVELOPMENT</text>
+<text x="988" y="121" font-size="22" font-weight="700" font-family="Inter,Arial,sans-serif" fill="#F2F8FF">VIREON</text>
+<circle cx="1014" cy="151" r="21" stroke="#FFC78A" fill="none" stroke-width="2"/><path d="M1014 151l7-14M1014 151l-10 4" stroke="#FFC78A" stroke-width="2"/><circle cx="1014" cy="151" r="3" fill="#FFC78A"/>
+<path d="M1059 134h181M1059 151h155M1059 168h168" stroke="#244357" stroke-width="2" stroke-dasharray="22 9"/>
+<text x="988" y="202" font-size="11" fill="#87ABC0">PERSONAL PLANNING SYSTEM</text>
+<path d="M988 218h255" stroke="#23465A"/>
+<text x="988" y="239" font-size="11" fill="#FFC78A">FLUTTER</text><text x="1074" y="239" font-size="11" fill="#FFC78A">ANDROID</text><text x="1160" y="239" font-size="10.5" fill="#FFC78A">LOCAL-FIRST</text>
+<path d="M988 273h220" stroke="#FFC78A" stroke-width="2" opacity=".5"/>
+<circle cx="1228" cy="273" r="5" stroke="#FFC78A" fill="none"/>
+</g>
+<path d="M26 328h1228" stroke="#224B62" stroke-width="1"/>
+<text x="27" y="344" fill="#6388A0" font-size="11" font-family="Consolas,monospace">STATUS LABELS DESCRIBE PROJECT VISIBILITY — NOT SERVICE AVAILABILITY OR LIVE OPERATIONS.</text>
+</svg>
