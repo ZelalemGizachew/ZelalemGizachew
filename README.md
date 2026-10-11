@@ -25,7 +25,7 @@
 
 ---
 
-### \`00 / boot_sequence\`
+### `00 / boot_sequence`
 
 ~~~console
 $ ssh zelalem@engineering-os
@@ -45,7 +45,7 @@ I work on **fintech and digital-channel engineering at Safaricom Ethiopia**. Out
 
 My engineering interests span backend platforms, payment APIs, Android systems, and low-latency voice agents. **The connecting principle is operational reliability.**
 
-### \`01 / mission_registry\`
+### `01 / mission_registry`
 
 <img src="./assets/mission-registry.svg" width="100%" alt="Visual mission registry showing TeleVault, AddisAI LiveKit, M-Pesa SDKs, and Vireon with their current public or private project statuses." />
 
@@ -126,7 +126,7 @@ An Android-first productivity project built around deterministic daily plans rat
 </tr>
 </table>
 
-### \`02 / experimental_lab\`
+### `02 / experimental_lab`
 
 **[Spring Documentation MCP Server →](https://github.com/ZelalemGizachew/spring-documentation-mcp-server)**
 
@@ -134,7 +134,7 @@ A separate **educational, AI-assisted experiment** in documentation-aware develo
 
 <sub>This is not an official Spring project. The repository documents its AI-assisted code authorship.</sub>
 
-### \`03 / system_topology\`
+### `03 / system_topology`
 
 <img src="./assets/engineering-map.svg" width="100%" alt="Futuristic conceptual topology: backend systems, Android clients, payment APIs, and voice AI connected by reliability principles." />
 
@@ -154,7 +154,7 @@ A separate **educational, AI-assisted experiment** in documentation-aware develo
 
 </details>
 
-### \`04 / runtime_dependencies\`
+### `04 / runtime_dependencies`
 
 <div align="center">
 
@@ -174,7 +174,7 @@ A separate **educational, AI-assisted experiment** in documentation-aware develo
 
 </div>
 
-### \`05 / operating_principles\`
+### `05 / operating_principles`
 
 ~~~rust
 // Engineering axioms. Not executable Rust.
@@ -192,7 +192,7 @@ const OBSERVABILITY_IS_A_FEATURE: bool = true;
 
 **I like software that is difficult to build well, but easy for someone else to depend on.**
 
-### \`06 / open_channels\`
+### `06 / open_channels`
 
 I’m interested in technical collaboration and international opportunities in **backend/platform engineering, fintech infrastructure, developer tools, and realtime voice/AI**.
 
