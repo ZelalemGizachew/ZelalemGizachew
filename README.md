@@ -1,205 +1,161 @@
 <!--
-  ZG / ENGINEERING OS
-  A hand-built GitHub profile. Visual assets live in ./assets.
-  Public-facing status information is descriptive, not live telemetry.
+THE FAILURE DOMAIN — Field notes of Zelalem Gizachew.
+Original visual assets: assets/field-notes-cover.svg,
+assets/unhappy-path-atlas.svg, assets/artifact-index.svg.
+These schematics are conceptual artwork, not live monitoring data.
 -->
 
 <div align="center">
 
-<img src="./assets/profile-hero.svg" width="100%" alt="ZG Engineering OS — Zelalem Gizachew. Software Engineer, fintech, backend, Android and realtime voice AI." />
+<img src="./assets/field-notes-cover.svg" width="100%" alt="Field Notes From the Failure Domain — an original sci-fi engineering journal cover featuring Zelalem Gizachew, futuristic circuitry and orbital geometry." />
 
 <br/>
 
-<a href="https://zenonymous.lovable.app/"><img src="https://img.shields.io/badge/◈_PORTFOLIO-0C1727?style=for-the-badge&amp;labelColor=0C1727&amp;color=26657E" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/zelalem-gizachew-28012a230/"><img src="https://img.shields.io/badge/◈_LINKEDIN-0C1727?style=for-the-badge&amp;labelColor=0C1727&amp;color=26657E" alt="LinkedIn" /></a>
-<a href="https://shagiz-technologies.github.io/"><img src="https://img.shields.io/badge/◈_SHAGIZ_TECHNOLOGIES-0C1727?style=for-the-badge&amp;labelColor=0C1727&amp;color=247E75" alt="Shagiz Technologies website" /></a>
-<a href="mailto:zelalemgizachew890@gmail.com"><img src="https://img.shields.io/badge/◈_CONTACT-0C1727?style=for-the-badge&amp;labelColor=0C1727&amp;color=247E75" alt="Email" /></a>
+<a href="https://zenonymous.lovable.app/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-151D1A?style=for-the-badge&amp;logo=vercel&amp;logoColor=D9FF68" /></a>
+<a href="https://shagiz-technologies.github.io/"><img alt="Shagiz Technologies" src="https://img.shields.io/badge/SHAGIZ_TECHNOLOGIES-151D1A?style=for-the-badge&amp;logo=githubpages&amp;logoColor=D9FF68" /></a>
+<a href="https://www.linkedin.com/in/zelalem-gizachew-28012a230/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-151D1A?style=for-the-badge&amp;logo=linkedin&amp;logoColor=FF7A59" /></a>
+<a href="mailto:zelalemgizachew890@gmail.com"><img alt="Email" src="https://img.shields.io/badge/CONTACT-151D1A?style=for-the-badge&amp;logo=gmail&amp;logoColor=FF7A59" /></a>
 
-<br/><br/>
-
-**The systems should be interesting. Their failure modes should be boring.**
-
-<sub>SOFTWARE ENGINEER · SAFARICOM ETHIOPIA · ADDIS ABABA, ETHIOPIA</sub>
+<sub>SOFTWARE ENGINEER AT SAFARICOM ETHIOPIA &nbsp;·&nbsp; BACKEND &nbsp;·&nbsp; FINTECH &nbsp;·&nbsp; REALTIME VOICE &nbsp;·&nbsp; ANDROID</sub>
 
 </div>
 
 ---
 
-### `00 / boot_sequence`
+## THE PREMISE: THE HAPPY PATH IS A SMALL PART OF THE STORY
 
-~~~console
-$ ssh zelalem@engineering-os
-Authenticating... [human]
-Loading engineering profile...
+A request timed out. **Did the payment happen?**
 
-IDENTITY     Zelalem Gizachew
-ROLE         Software Engineer
-DOMAIN       Backend Engineering / Fintech / Realtime AI / Android
-LOCATION     Addis Ababa, Ethiopia
-MODE         BUILD  →  SHIP  →  BREAK  →  HARDEN  →  OPEN SOURCE
+The app was killed. **Which state survived?**
 
-> Welcome to the part of the internet where failure paths are first-class features.
-~~~
+Speech was generated. **Did it arrive before the conversation moved on?**
 
-I work on **fintech and digital-channel engineering at Safaricom Ethiopia**. Outside my day job, I build products, developer tooling, and open-source integrations. I gravitate toward the problems that appear *after* the happy-path demo: concurrency, retries, state reconciliation, unreliable networks, latency, and observability.
+Those are the kinds of questions that make software engineering interesting to me.
 
-My engineering interests span backend platforms, payment APIs, Android systems, and low-latency voice agents. **The connecting principle is operational reliability.**
+I'm **Zelalem Gizachew**, a software engineer based in Addis Ababa, Ethiopia. I work on fintech and digital channels at **Safaricom Ethiopia**. Outside work, I build independent products, developer tools, and open-source integrations — especially where distributed systems, mobile clients, payments, and AI meet.
 
-### `01 / mission_registry`
-
-<img src="./assets/mission-registry.svg" width="100%" alt="Visual mission registry showing TeleVault, AddisAI LiveKit, M-Pesa SDKs, and Vireon with their current public or private project statuses." />
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### <a href="https://github.com/Shagiz-Technologies/televault">A01 / TELEVAULT ↗</a>
-
-**Storage and privacy infrastructure disguised as an Android media app.**
-
-Public, open-source Android backup manager and encrypted vault built around user-controlled Telegram storage.
-
-- TDLib integration and resilient background uploads
-- Sync state and crash recovery
-- Retry / flood-wait handling and Android WorkManager
-- Streaming AES-256-GCM encrypted vault containers
-- Release hardening, privacy and CI workflows
-
-<sub><code>Flutter</code> · <code>Kotlin</code> · <code>TDLib</code> · <code>Drift/SQLite</code></sub>
-
-**[Explore source →](https://github.com/Shagiz-Technologies/televault)**
-
-</td>
-<td width="50%" valign="top">
-
-#### A02 / ADDISAI × LIVEKIT
-
-**African-language speech integrations for realtime AI agents.**
-
-Proposed upstream STT/TTS provider plugins for **Amharic** and **Afaan Oromo** in two LiveKit ecosystems.
-
-- Asynchronous provider requests and error mapping
-- Retry-safe, idempotent speech generation flows
-- Tests, documentation, and agent examples
-- Python and TypeScript implementations
-
-<sub><code>LiveKit Agents</code> · <code>Python</code> · <code>TypeScript</code> · <code>STT/TTS</code></sub>
-
-**[Python PR #6601 →](https://github.com/livekit/agents/pull/6601)** · **[Node.js PR #2160 →](https://github.com/livekit/agents-js/pull/2160)**
-
-<sub>Both upstream pull requests are currently open, not merged.</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### A03 / M-PESA SDK SUITE
-
-**Payment integrations should have predictable developer contracts.**
-
-Public client projects exploring API authentication, transaction requests, callbacks, and error handling across languages.
-
-**[Java](https://github.com/ZelalemGizachew/mpesa-java-sdk)** · **[Python](https://github.com/ZelalemGizachew/mpesa-python-sdk)** · **[Go](https://github.com/ZelalemGizachew/mpesa-go-sdk)** · **[Node.js](https://github.com/ZelalemGizachew/mpesa-node-js-sdk)** · **[PHP](https://github.com/ZelalemGizachew/mpesa-php-sdk)**
-
-<sub><code>Payments</code> · <code>API clients</code> · <code>Authentication</code> · <code>Developer tooling</code></sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### A04 / VIREON
-
-**A personal planning system designed as an operating environment.**
-
-An Android-first productivity project built around deterministic daily plans rather than infinite, mutable to-do lists.
-
-- Frozen daily plans and routine-generated tasks
-- Timed reminders and native Android notification HUDs
-- Local-first state and weekly performance reviews
-- Mechanical, science-fiction-inspired UI
-
-<sub><code>Flutter</code> · <code>Dart</code> · <code>Kotlin</code> · <code>Android</code></sub>
-
-<sub>Private development. No public source link yet.</sub>
-
-</td>
-</tr>
-</table>
-
-### `02 / experimental_lab`
-
-**[Spring Documentation MCP Server →](https://github.com/ZelalemGizachew/spring-documentation-mcp-server)**
-
-A separate **educational, AI-assisted experiment** in documentation-aware developer tools: Spring AI, MCP interfaces, PostgreSQL full-text search, pgvector semantic retrieval, and documentation synchronization.
-
-<sub>This is not an official Spring project. The repository documents its AI-assisted code authorship.</sub>
-
-### `03 / system_topology`
-
-<img src="./assets/engineering-map.svg" width="100%" alt="Futuristic conceptual topology: backend systems, Android clients, payment APIs, and voice AI connected by reliability principles." />
-
-<details>
-<summary><b>Expand: what I optimize for</b></summary>
-
-<br/>
-
-| Engineering surface | The questions worth asking |
-|:--|:--|
-| **Distributed state** | What happens if two actors update the same thing? |
-| **Failure recovery** | Can we safely resume after a timeout or crash? |
-| **Payment integrations** | Is every external action identifiable and idempotent? |
-| **Observability** | Can we explain *why* a transaction failed without guessing? |
-| **Realtime voice** | Where is the latency budget spent, and how do interruptions behave? |
-| **Android** | What survives process death, bad connectivity, and background limits? |
-
-</details>
-
-### `04 / runtime_dependencies`
+I care about **the behavior between the steps**: uncertain outcomes, retries, lost connectivity, state reconciliation, observability, and interfaces that make complex systems feel simple.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Java-0E1B2B?style=flat-square&amp;logo=openjdk&amp;logoColor=F5A05B" alt="Java" />
-<img src="https://img.shields.io/badge/Spring_Boot-0E1B2B?style=flat-square&amp;logo=springboot&amp;logoColor=7DCF79" alt="Spring Boot" />
-<img src="https://img.shields.io/badge/Python-0E1B2B?style=flat-square&amp;logo=python&amp;logoColor=82BFF4" alt="Python" />
-<img src="https://img.shields.io/badge/FastAPI-0E1B2B?style=flat-square&amp;logo=fastapi&amp;logoColor=73DDC5" alt="FastAPI" />
-<img src="https://img.shields.io/badge/PostgreSQL-0E1B2B?style=flat-square&amp;logo=postgresql&amp;logoColor=7EB5E6" alt="PostgreSQL" />
-<img src="https://img.shields.io/badge/Docker-0E1B2B?style=flat-square&amp;logo=docker&amp;logoColor=59B7FF" alt="Docker" />
-
-<img src="https://img.shields.io/badge/Flutter-0E1B2B?style=flat-square&amp;logo=flutter&amp;logoColor=68D4FC" alt="Flutter" />
-<img src="https://img.shields.io/badge/Kotlin-0E1B2B?style=flat-square&amp;logo=kotlin&amp;logoColor=AD9AFF" alt="Kotlin" />
-<img src="https://img.shields.io/badge/TypeScript-0E1B2B?style=flat-square&amp;logo=typescript&amp;logoColor=78B0FB" alt="TypeScript" />
-<img src="https://img.shields.io/badge/LiveKit-0E1B2B?style=flat-square&amp;logoColor=8FFBD1" alt="LiveKit" />
-<img src="https://img.shields.io/badge/Redis-0E1B2B?style=flat-square&amp;logo=redis&amp;logoColor=FF7A7A" alt="Redis" />
-<img src="https://img.shields.io/badge/Linux-0E1B2B?style=flat-square&amp;logo=linux&amp;logoColor=FFDA84" alt="Linux" />
+<sub>✳ &nbsp; A PERSONAL FIELD GUIDE TO BUILDING SOFTWARE THAT SURVIVES REALITY &nbsp; ✳</sub>
 
 </div>
 
-### `05 / operating_principles`
+## PLATE 001 — THE UNHAPPY PATH ATLAS
 
-~~~rust
-// Engineering axioms. Not executable Rust.
+<img src="./assets/unhappy-path-atlas.svg" width="100%" alt="The Unhappy Path Atlas: original schematics for timeout recovery, process death, duplicate requests, and voice latency." />
 
-const ASSUME_FAILURE: bool = true;
-const MAKE_STATE_EXPLICIT: bool = true;
-const OBSERVABILITY_IS_A_FEATURE: bool = true;
+Four recurring engineering problems — not invented performance measurements, just the failure cases worth designing around.
 
-// Network call ≠ transaction.
-// Retry ≠ repeat blindly.
-// Shipped ≠ finished.
-// Complexity belongs inside the system,
-// not in the user's experience.
+<details>
+<summary><b>↳ Open the field notes: how I think about failure</b></summary>
+
+| Symptom | The engineering question |
+|:--|:--|
+| Request timed out | Was the operation rejected, completed, or left uncertain? |
+| App/process died | What state was durably committed, and what must be reconciled? |
+| Request was replayed | Will repeating it create a second effect? |
+| Voice agent feels slow | Which part of the STT → model → TTS → transport path owns the delay? |
+
+</details>
+
+## PLATE 002 — THE WORK, NOT JUST THE STACK
+
+<img src="./assets/artifact-index.svg" width="100%" alt="Original archive-style project index, showing TeleVault, AddisAI LiveKit integrations, M-Pesa SDKs, Spring documentation MCP and Vireon." />
+
+### 01 / TELEVAULT — Storage should survive interruption
+
+**[Open the repository ↗](https://github.com/Shagiz-Technologies/televault)** · Public, open source
+
+An Android media library, backup manager, and encrypted vault using a Telegram-backed storage model. Its most interesting surfaces are not the gallery screens:
+
+**Stateful uploads** · **TDLib** · **Android background execution** · **retry/flood-wait handling** · **Drift/SQLite** · **streaming AES-256-GCM encryption** · **release hardening**
+
+The product is developed under **[Shagiz Technologies](https://shagiz-technologies.github.io/)**.
+
+### 02 / ADDISAI × LIVEKIT — Voice should tolerate the real world
+
+**[Python integration PR #6601 ↗](https://github.com/livekit/agents/pull/6601)** · **[Node.js integration PR #2160 ↗](https://github.com/livekit/agents-js/pull/2160)**
+
+Proposed upstream integrations that bring **Amharic** and **Afaan Oromo** speech-to-text and text-to-speech providers into LiveKit Agents.
+
+The engineering concerns are practical: asynchronous requests, typed provider failures, retry behavior and idempotency, audio handling, and tests across **Python** and **TypeScript**.
+
+*Both are open pull requests; neither is a merged LiveKit release.*
+
+### 03 / M-PESA SDK SUITE — Developer experience is infrastructure
+
+A set of public payment integration client projects, covering API authentication, transaction operations, callbacks, error handling, and language-specific interfaces.
+
+**[Java](https://github.com/ZelalemGizachew/mpesa-java-sdk)** / **[Python](https://github.com/ZelalemGizachew/mpesa-python-sdk)** / **[Go](https://github.com/ZelalemGizachew/mpesa-go-sdk)** / **[Node.js](https://github.com/ZelalemGizachew/mpesa-node-js-sdk)** / **[PHP](https://github.com/ZelalemGizachew/mpesa-php-sdk)**
+
+*These are public developer projects; they are not presented as official Safaricom SDKs.*
+
+### 04 / SPRING DOCUMENTATION MCP — Make knowledge queryable
+
+**[Explore the experiment ↗](https://github.com/ZelalemGizachew/spring-documentation-mcp-server)** · Independent educational project
+
+A documentation-access experiment combining **Spring Boot**, **Spring AI**, **MCP**, **PostgreSQL**, and **pgvector** to explore searchable and semantically retrievable Spring documentation.
+
+*Not an official Spring project. The repository discloses its AI-assisted code authorship.*
+
+### 05 / VIREON — Time is a state-management problem
+
+An Android-first planning project exploring frozen daily schedules, routine-generated tasks, local reminders, and weekly feedback — with a mechanical sci-fi visual system.
+
+*Currently private development. No public source or release is implied.*
+
+---
+
+## THE TOOLBOX — ORGANIZED BY THE PROBLEMS IT SOLVES
+
+~~~text
+┌─ BACKEND / PLATFORM ──────────────────────────────────┐
+│ Java · Spring Boot · Python · FastAPI · API contracts  │
+├─ STATE / DELIVERY ────────────────────────────────────┤
+│ PostgreSQL · Redis · Docker · Linux · CI pipelines     │
+├─ MOBILE / PRODUCT ────────────────────────────────────┤
+│ Flutter · Dart · Kotlin · Android · SQLite             │
+├─ REALTIME / INTELLIGENCE ─────────────────────────────┤
+│ LiveKit · STT/TTS · TypeScript · AI agents · MCP        │
+└───────────────────────────────────────────────────────┘
 ~~~
 
-**I like software that is difficult to build well, but easy for someone else to depend on.**
+The tools change. The questions are consistent: **What happens under failure? Can we explain it? Can we recover without creating more damage?**
 
-### `06 / open_channels`
+<details>
+<summary><b>↳ Expand: the engineering rules I keep coming back to</b></summary>
 
-I’m interested in technical collaboration and international opportunities in **backend/platform engineering, fintech infrastructure, developer tools, and realtime voice/AI**.
+~~~text
+01. A timeout is an unknown outcome — never a reliable rollback.
+02. Retrying is easy. Retrying without duplicated effects is engineering.
+03. State that matters must outlive the process that held it.
+04. If a failure cannot be observed, it cannot be operated responsibly.
+05. Realtime is a latency budget shared by every component.
+06. APIs are promises to the developers who depend on them.
+07. Ship the simplest system that can be understood when it breaks.
+~~~
+
+</details>
+
+## LAST PAGE — OPEN CHANNELS
+
+I'm interested in **backend/platform engineering, fintech infrastructure, developer tooling, mobile systems, and realtime voice/AI**, including technically ambitious open-source collaborations and international engineering opportunities.
 
 <div align="center">
 
-**[Portfolio](https://zenonymous.lovable.app/)** &nbsp; / &nbsp; **[Shagiz Technologies](https://shagiz-technologies.github.io/)** &nbsp; / &nbsp; **[LinkedIn](https://www.linkedin.com/in/zelalem-gizachew-28012a230/)** &nbsp; / &nbsp; **[Email](mailto:zelalemgizachew890@gmail.com)**
+**[SEE THE WORK](https://github.com/ZelalemGizachew?tab=repositories)** &nbsp; / &nbsp;
+**[PERSONAL PORTFOLIO](https://zenonymous.lovable.app/)** &nbsp; / &nbsp;
+**[SHAGIZ TECHNOLOGIES](https://shagiz-technologies.github.io/)**
 
-<sub>ZG / ENGINEERING OS · SYSTEMS OVER HYPE · SIGNAL OVER NOISE</sub>
+**[LINKEDIN](https://www.linkedin.com/in/zelalem-gizachew-28012a230/)** &nbsp; / &nbsp;
+**[EMAIL](mailto:zelalemgizachew890@gmail.com)**
+
+<br/>
+
+<sub>© THE FAILURE DOMAIN / A FIELD JOURNAL BY ZELALEM GIZACHEW</sub>
+
+**Make complex things. Make their behavior predictable.**
 
 </div>
