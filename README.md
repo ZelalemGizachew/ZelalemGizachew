@@ -1,135 +1,205 @@
+<!--
+  ZG / ENGINEERING OS
+  A hand-built GitHub profile. Visual assets live in ./assets.
+  Public-facing status information is descriptive, not live telemetry.
+-->
+
 <div align="center">
 
-<img src="./assets/profile-hero.svg" width="100%" alt="Zelalem Gizachew | Software Engineer | Backend, Fintech, Android and Realtime Voice AI" />
+<img src="./assets/profile-hero.svg" width="100%" alt="ZG Engineering OS — Zelalem Gizachew. Software Engineer, fintech, backend, Android and realtime voice AI." />
 
 <br/>
 
-**Software Engineer @ Safaricom Ethiopia** · **Backend / Platform** · **Fintech** · **Realtime AI** · **Open Source**
+<a href="https://zenonymous.lovable.app/"><img src="https://img.shields.io/badge/◈_PORTFOLIO-0C1727?style=for-the-badge&amp;labelColor=0C1727&amp;color=26657E" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/zelalem-gizachew-28012a230/"><img src="https://img.shields.io/badge/◈_LINKEDIN-0C1727?style=for-the-badge&amp;labelColor=0C1727&amp;color=26657E" alt="LinkedIn" /></a>
+<a href="https://shagiz-technologies.github.io/"><img src="https://img.shields.io/badge/◈_SHAGIZ_TECHNOLOGIES-0C1727?style=for-the-badge&amp;labelColor=0C1727&amp;color=247E75" alt="Shagiz Technologies website" /></a>
+<a href="mailto:zelalemgizachew890@gmail.com"><img src="https://img.shields.io/badge/◈_CONTACT-0C1727?style=for-the-badge&amp;labelColor=0C1727&amp;color=247E75" alt="Email" /></a>
 
-I turn complicated systems into software that is predictable under pressure.
+<br/><br/>
 
-<p>
-  <a href="https://zenonymous.lovable.app/"><img alt="Portfolio" src="https://img.shields.io/badge/PORTFOLIO-0B1722?style=for-the-badge&amp;logo=vercel&amp;logoColor=4ED9FF" /></a>
-  <a href="https://www.linkedin.com/in/zelalem-gizachew-28012a230/"><img alt="LinkedIn" src="https://img.shields.io/badge/LINKEDIN-0B1722?style=for-the-badge&amp;logo=linkedin&amp;logoColor=4ED9FF" /></a>
-  <a href="https://shagiz-technologies.github.io/"><img alt="Shagiz Technologies website" src="https://img.shields.io/badge/SHAGIZ_TECHNOLOGIES-0B1722?style=for-the-badge&amp;logo=githubpages&amp;logoColor=8BF4C9" /></a>
-  <a href="mailto:zelalemgizachew890@gmail.com"><img alt="Email" src="https://img.shields.io/badge/EMAIL-0B1722?style=for-the-badge&amp;logo=gmail&amp;logoColor=8BF4C9" /></a>
-</p>
+**The systems should be interesting. Their failure modes should be boring.**
+
+<sub>SOFTWARE ENGINEER · SAFARICOM ETHIOPIA · ADDIS ABABA, ETHIOPIA</sub>
 
 </div>
 
-## 01 / whoami
+---
 
-I'm a software engineer based in Addis Ababa, Ethiopia. At **Safaricom Ethiopia**, I work on fintech and digital-channel software. Beyond work, I build Android products and developer integrations, experiment with AI-assisted engineering, and contribute to open-source voice infrastructure.
+### \`00 / boot_sequence\`
 
-My favorite problems live at the boundaries: **retries and idempotency, distributed state, failure recovery, API contracts, latency, observability, and security**.
+~~~console
+$ ssh zelalem@engineering-os
+Authenticating... [human]
+Loading engineering profile...
 
-~~~toml
-# ~/.config/zelalem/engineering.toml
-[identity]
-role     = "Software Engineer"
-focus    = ["Backend", "Fintech", "Realtime Voice", "Open Source"]
-location = "Addis Ababa, Ethiopia"
+IDENTITY     Zelalem Gizachew
+ROLE         Software Engineer
+DOMAIN       Backend Engineering / Fintech / Realtime AI / Android
+LOCATION     Addis Ababa, Ethiopia
+MODE         BUILD  →  SHIP  →  BREAK  →  HARDEN  →  OPEN SOURCE
 
-[defaults]
-design_for_failure = true
-make_it_observable = true
-ship_and_iterate   = true
+> Welcome to the part of the internet where failure paths are first-class features.
 ~~~
 
-## 02 / selected-work
+I work on **fintech and digital-channel engineering at Safaricom Ethiopia**. Outside my day job, I build products, developer tooling, and open-source integrations. I gravitate toward the problems that appear *after* the happy-path demo: concurrency, retries, state reconciliation, unreliable networks, latency, and observability.
 
-### [TeleVault](https://github.com/Shagiz-Technologies/televault) <img alt="public open source" src="https://img.shields.io/badge/PUBLIC_OSS-8BF4C9?style=flat-square&amp;labelColor=0B1722" />
+My engineering interests span backend platforms, payment APIs, Android systems, and low-latency voice agents. **The connecting principle is operational reliability.**
 
-**An Android media library, Telegram-backed backup manager, and encrypted vault.**
+### \`01 / mission_registry\`
 
-The engineering work goes deeper than the interface: TDLib integration, durable sync state, background jobs, retries and flood-wait handling, crash recovery, streaming AES-256-GCM vault encryption, recovery-key-protected metadata, and Android release verification.
+<img src="./assets/mission-registry.svg" width="100%" alt="Visual mission registry showing TeleVault, AddisAI LiveKit, M-Pesa SDKs, and Vireon with their current public or private project statuses." />
 
-Flutter · Dart · Kotlin · TDLib · Drift/SQLite · WorkManager · GitHub Actions
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[Source code →](https://github.com/Shagiz-Technologies/televault) · [Shagiz Technologies →](https://shagiz-technologies.github.io/)
+#### <a href="https://github.com/Shagiz-Technologies/televault">A01 / TELEVAULT ↗</a>
 
----
+**Storage and privacy infrastructure disguised as an Android media app.**
 
-### AddisAI × LiveKit <img alt="upstream pull requests" src="https://img.shields.io/badge/UPSTREAM_PR-4ED9FF?style=flat-square&amp;labelColor=0B1722" />
+Public, open-source Android backup manager and encrypted vault built around user-controlled Telegram storage.
 
-**Proposed speech-to-text and text-to-speech provider integrations for Amharic and Afaan Oromo voice agents.** Contributed matching integrations to the Python and Node.js LiveKit Agents ecosystems, with attention to non-blocking I/O, retry idempotency, provider error mapping, test coverage, and voice-pipeline interoperability.
+- TDLib integration and resilient background uploads
+- Sync state and crash recovery
+- Retry / flood-wait handling and Android WorkManager
+- Streaming AES-256-GCM encrypted vault containers
+- Release hardening, privacy and CI workflows
 
-[Python · livekit/agents #6601 →](https://github.com/livekit/agents/pull/6601) · [TypeScript · livekit/agents-js #2160 →](https://github.com/livekit/agents-js/pull/2160)
+<sub><code>Flutter</code> · <code>Kotlin</code> · <code>TDLib</code> · <code>Drift/SQLite</code></sub>
 
-*Both contributions are open pull requests, not merged releases.*
+**[Explore source →](https://github.com/Shagiz-Technologies/televault)**
 
----
+</td>
+<td width="50%" valign="top">
 
-### M-Pesa SDKs <img alt="developer tooling" src="https://img.shields.io/badge/DEVELOPER_TOOLING-4ED9FF?style=flat-square&amp;labelColor=0B1722" />
+#### A02 / ADDISAI × LIVEKIT
 
-A set of payment API client projects exploring authentication, transaction requests, callbacks, response models, and developer experience across language ecosystems.
+**African-language speech integrations for realtime AI agents.**
 
-[Java](https://github.com/ZelalemGizachew/mpesa-java-sdk) · [Python](https://github.com/ZelalemGizachew/mpesa-python-sdk) · [Go](https://github.com/ZelalemGizachew/mpesa-go-sdk) · [Node.js](https://github.com/ZelalemGizachew/mpesa-node-js-sdk) · [PHP](https://github.com/ZelalemGizachew/mpesa-php-sdk)
+Proposed upstream STT/TTS provider plugins for **Amharic** and **Afaan Oromo** in two LiveKit ecosystems.
 
----
+- Asynchronous provider requests and error mapping
+- Retry-safe, idempotent speech generation flows
+- Tests, documentation, and agent examples
+- Python and TypeScript implementations
 
-### [Spring Documentation MCP Server](https://github.com/ZelalemGizachew/spring-documentation-mcp-server) <img alt="experimental educational project" src="https://img.shields.io/badge/EXPERIMENTAL-FFCE73?style=flat-square&amp;labelColor=0B1722" />
+<sub><code>LiveKit Agents</code> · <code>Python</code> · <code>TypeScript</code> · <code>STT/TTS</code></sub>
 
-An **independent, AI-assisted educational project** exploring MCP-based access to Spring documentation: full-text and pgvector search, Spring AI, documentation synchronization, and developer-oriented tooling.
+**[Python PR #6601 →](https://github.com/livekit/agents/pull/6601)** · **[Node.js PR #2160 →](https://github.com/livekit/agents-js/pull/2160)**
 
-Java · Spring Boot · Spring AI · PostgreSQL/pgvector · MCP
+<sub>Both upstream pull requests are currently open, not merged.</sub>
 
-*Not affiliated with Spring; implemented with AI coding assistance as documented in the repository.*
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+#### A03 / M-PESA SDK SUITE
 
-**Also building:** **Vireon** — an Android-first personal planning system with frozen daily plans, timed reminders, native notification HUDs, and weekly reports. **Private development; not a public release.**
+**Payment integrations should have predictable developer contracts.**
 
-## 03 / systems-map
+Public client projects exploring API authentication, transaction requests, callbacks, and error handling across languages.
 
-<img src="./assets/engineering-map.svg" width="100%" alt="Conceptual engineering map connecting backend, mobile, reliability, payments and voice systems" />
+**[Java](https://github.com/ZelalemGizachew/mpesa-java-sdk)** · **[Python](https://github.com/ZelalemGizachew/mpesa-python-sdk)** · **[Go](https://github.com/ZelalemGizachew/mpesa-go-sdk)** · **[Node.js](https://github.com/ZelalemGizachew/mpesa-node-js-sdk)** · **[PHP](https://github.com/ZelalemGizachew/mpesa-php-sdk)**
 
-I care more about how a system behaves when something goes wrong than how convincing its happy-path demo looks.
+<sub><code>Payments</code> · <code>API clients</code> · <code>Authentication</code> · <code>Developer tooling</code></sub>
 
-## 04 / toolbox
+</td>
+<td width="50%" valign="top">
 
-**Backend & APIs**
+#### A04 / VIREON
 
-![Java](https://img.shields.io/badge/Java-0B1722?style=flat-square&logo=openjdk&logoColor=F89820)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-0B1722?style=flat-square&logo=springboot&logoColor=6DB33F)
-![Python](https://img.shields.io/badge/Python-0B1722?style=flat-square&logo=python&logoColor=4B8BBE)
-![FastAPI](https://img.shields.io/badge/FastAPI-0B1722?style=flat-square&logo=fastapi&logoColor=20C997)
-![Go](https://img.shields.io/badge/Go-0B1722?style=flat-square&logo=go&logoColor=00ADD8)
+**A personal planning system designed as an operating environment.**
 
-**Data & infrastructure**
+An Android-first productivity project built around deterministic daily plans rather than infinite, mutable to-do lists.
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1722?style=flat-square&logo=postgresql&logoColor=8BACD5)
-![Redis](https://img.shields.io/badge/Redis-0B1722?style=flat-square&logo=redis&logoColor=E94B47)
-![Docker](https://img.shields.io/badge/Docker-0B1722?style=flat-square&logo=docker&logoColor=2496ED)
-![Linux](https://img.shields.io/badge/Linux-0B1722?style=flat-square&logo=linux&logoColor=FCC624)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0B1722?style=flat-square&logo=githubactions&logoColor=4ED9FF)
+- Frozen daily plans and routine-generated tasks
+- Timed reminders and native Android notification HUDs
+- Local-first state and weekly performance reviews
+- Mechanical, science-fiction-inspired UI
 
-**Apps & realtime intelligence**
+<sub><code>Flutter</code> · <code>Dart</code> · <code>Kotlin</code> · <code>Android</code></sub>
 
-![Flutter](https://img.shields.io/badge/Flutter-0B1722?style=flat-square&logo=flutter&logoColor=54C5F8)
-![Kotlin](https://img.shields.io/badge/Kotlin-0B1722?style=flat-square&logo=kotlin&logoColor=AD84FC)
-![TypeScript](https://img.shields.io/badge/TypeScript-0B1722?style=flat-square&logo=typescript&logoColor=58A6FF)
-![LiveKit](https://img.shields.io/badge/LiveKit-0B1722?style=flat-square&logoColor=8BF4C9)
-![AI Agents](https://img.shields.io/badge/AI_Agents-0B1722?style=flat-square&logoColor=8BF4C9)
+<sub>Private development. No public source link yet.</sub>
 
-## 05 / engineering-principles
+</td>
+</tr>
+</table>
 
-~~~text
-01  Treat every network boundary as a failure boundary.
-02  Retry carefully. Idempotency is a contract, not a checkbox.
-03  Make states explicit and the system observable.
-04  Prefer simple interfaces over hidden operational complexity.
-05  Build things other engineers can understand and maintain.
-~~~
+### \`02 / experimental_lab\`
 
-## 06 / connect
+**[Spring Documentation MCP Server →](https://github.com/ZelalemGizachew/spring-documentation-mcp-server)**
 
-I'm interested in **backend/platform engineering, fintech infrastructure, developer tooling, and realtime voice/AI systems** — especially technically ambitious open-source work and international engineering opportunities.
+A separate **educational, AI-assisted experiment** in documentation-aware developer tools: Spring AI, MCP interfaces, PostgreSQL full-text search, pgvector semantic retrieval, and documentation synchronization.
 
-**[Portfolio](https://zenonymous.lovable.app/)** · **[LinkedIn](https://www.linkedin.com/in/zelalem-gizachew-28012a230/)** · **[Email](mailto:zelalemgizachew890@gmail.com)** · **[Shagiz Technologies](https://shagiz-technologies.github.io/)**
+<sub>This is not an official Spring project. The repository documents its AI-assisted code authorship.</sub>
+
+### \`03 / system_topology\`
+
+<img src="./assets/engineering-map.svg" width="100%" alt="Futuristic conceptual topology: backend systems, Android clients, payment APIs, and voice AI connected by reliability principles." />
+
+<details>
+<summary><b>Expand: what I optimize for</b></summary>
+
+<br/>
+
+| Engineering surface | The questions worth asking |
+|:--|:--|
+| **Distributed state** | What happens if two actors update the same thing? |
+| **Failure recovery** | Can we safely resume after a timeout or crash? |
+| **Payment integrations** | Is every external action identifiable and idempotent? |
+| **Observability** | Can we explain *why* a transaction failed without guessing? |
+| **Realtime voice** | Where is the latency budget spent, and how do interruptions behave? |
+| **Android** | What survives process death, bad connectivity, and background limits? |
+
+</details>
+
+### \`04 / runtime_dependencies\`
 
 <div align="center">
 
-<sub>Build deliberately. Test failure paths. Ship something useful.</sub>
+<img src="https://img.shields.io/badge/Java-0E1B2B?style=flat-square&amp;logo=openjdk&amp;logoColor=F5A05B" alt="Java" />
+<img src="https://img.shields.io/badge/Spring_Boot-0E1B2B?style=flat-square&amp;logo=springboot&amp;logoColor=7DCF79" alt="Spring Boot" />
+<img src="https://img.shields.io/badge/Python-0E1B2B?style=flat-square&amp;logo=python&amp;logoColor=82BFF4" alt="Python" />
+<img src="https://img.shields.io/badge/FastAPI-0E1B2B?style=flat-square&amp;logo=fastapi&amp;logoColor=73DDC5" alt="FastAPI" />
+<img src="https://img.shields.io/badge/PostgreSQL-0E1B2B?style=flat-square&amp;logo=postgresql&amp;logoColor=7EB5E6" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Docker-0E1B2B?style=flat-square&amp;logo=docker&amp;logoColor=59B7FF" alt="Docker" />
+
+<img src="https://img.shields.io/badge/Flutter-0E1B2B?style=flat-square&amp;logo=flutter&amp;logoColor=68D4FC" alt="Flutter" />
+<img src="https://img.shields.io/badge/Kotlin-0E1B2B?style=flat-square&amp;logo=kotlin&amp;logoColor=AD9AFF" alt="Kotlin" />
+<img src="https://img.shields.io/badge/TypeScript-0E1B2B?style=flat-square&amp;logo=typescript&amp;logoColor=78B0FB" alt="TypeScript" />
+<img src="https://img.shields.io/badge/LiveKit-0E1B2B?style=flat-square&amp;logoColor=8FFBD1" alt="LiveKit" />
+<img src="https://img.shields.io/badge/Redis-0E1B2B?style=flat-square&amp;logo=redis&amp;logoColor=FF7A7A" alt="Redis" />
+<img src="https://img.shields.io/badge/Linux-0E1B2B?style=flat-square&amp;logo=linux&amp;logoColor=FFDA84" alt="Linux" />
+
+</div>
+
+### \`05 / operating_principles\`
+
+~~~rust
+// Engineering axioms. Not executable Rust.
+
+const ASSUME_FAILURE: bool = true;
+const MAKE_STATE_EXPLICIT: bool = true;
+const OBSERVABILITY_IS_A_FEATURE: bool = true;
+
+// Network call ≠ transaction.
+// Retry ≠ repeat blindly.
+// Shipped ≠ finished.
+// Complexity belongs inside the system,
+// not in the user's experience.
+~~~
+
+**I like software that is difficult to build well, but easy for someone else to depend on.**
+
+### \`06 / open_channels\`
+
+I’m interested in technical collaboration and international opportunities in **backend/platform engineering, fintech infrastructure, developer tools, and realtime voice/AI**.
+
+<div align="center">
+
+**[Portfolio](https://zenonymous.lovable.app/)** &nbsp; / &nbsp; **[Shagiz Technologies](https://shagiz-technologies.github.io/)** &nbsp; / &nbsp; **[LinkedIn](https://www.linkedin.com/in/zelalem-gizachew-28012a230/)** &nbsp; / &nbsp; **[Email](mailto:zelalemgizachew890@gmail.com)**
+
+<sub>ZG / ENGINEERING OS · SYSTEMS OVER HYPE · SIGNAL OVER NOISE</sub>
 
 </div>
