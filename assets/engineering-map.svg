@@ -1,41 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="256" viewBox="0 0 1200 256" role="img" aria-labelledby="title desc">
-  <title id="title">Engineering problem spaces</title>
-  <desc id="desc">A conceptual map of backend and mobile systems connecting through reliability engineering to payments, realtime voice and open source.</desc>
-  <defs>
-    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0A131D"/><stop offset="1" stop-color="#071019"/></linearGradient>
-    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#295A70"/><stop offset=".5" stop-color="#4ED9FF"/><stop offset="1" stop-color="#8BF4C9"/></linearGradient>
-    <pattern id="dots" width="19" height="19" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#84B3CA" fill-opacity=".11"/></pattern>
-  </defs>
-  <rect width="1200" height="256" rx="16" fill="url(#surface)"/>
-  <rect width="1200" height="256" rx="16" fill="url(#dots)"/>
-  <rect x=".75" y=".75" width="1198.5" height="254.5" rx="15" fill="none" stroke="#264759"/>
-  <g font-family="SFMono-Regular,Consolas,'Liberation Mono',monospace">
-    <text x="32" y="27" fill="#80A9BB" font-size="12" letter-spacing="1.5">SYSTEMS / PROBLEM SPACE</text>
-    <text x="1167" y="27" fill="#5E899D" font-size="11" text-anchor="end">CONCEPTUAL MAP — NOT A DEPLOYMENT DIAGRAM</text>
-    <g fill="none" stroke="url(#trace)" stroke-width="2">
-      <path d="M282 90C358 90 364 128 445 128"/>
-      <path d="M282 194C358 194 364 128 445 128"/>
-      <path d="M732 128C807 128 814 90 904 90"/>
-      <path d="M732 128C807 128 814 194 904 194"/>
-    </g>
-    <g fill="#8BF4C9"><circle cx="282" cy="90" r="4"/><circle cx="282" cy="194" r="4"/><circle cx="732" cy="128" r="4"/><circle cx="904" cy="90" r="4"/><circle cx="904" cy="194" r="4"/></g>
-    <g>
-      <rect x="32" y="55" width="250" height="70" rx="9" fill="#0C202B" stroke="#2E5367"/>
-      <text x="48" y="80" fill="#4ED9FF" font-size="14" font-weight="700">BACKEND / APIS</text>
-      <text x="48" y="102" fill="#C5DBE5" font-size="12">Java · Spring · Python</text>
-      <rect x="32" y="159" width="250" height="70" rx="9" fill="#0C202B" stroke="#2E5367"/>
-      <text x="48" y="184" fill="#4ED9FF" font-size="14" font-weight="700">MOBILE / CLIENTS</text>
-      <text x="48" y="206" fill="#C5DBE5" font-size="12">Flutter · Kotlin · Android</text>
-      <rect x="445" y="76" width="287" height="104" rx="12" fill="#09202A" stroke="#4ED9FF" stroke-width="2"/>
-      <text x="588.5" y="103" fill="#75A4B7" font-size="12" text-anchor="middle">ENGINEERING INVARIANTS</text>
-      <text x="588.5" y="135" fill="#F1F9FB" font-size="19" font-weight="700" text-anchor="middle">RELIABILITY</text>
-      <text x="588.5" y="158" fill="#8BF4C9" font-size="12" text-anchor="middle">idempotency · recovery · traces</text>
-      <rect x="904" y="55" width="263" height="70" rx="9" fill="#0C202B" stroke="#2E5367"/>
-      <text x="919" y="80" fill="#8BF4C9" font-size="14" font-weight="700">PAYMENTS / FINTECH</text>
-      <text x="919" y="102" fill="#C5DBE5" font-size="12">contracts · SDKs · integrations</text>
-      <rect x="904" y="159" width="263" height="70" rx="9" fill="#0C202B" stroke="#2E5367"/>
-      <text x="919" y="184" fill="#8BF4C9" font-size="14" font-weight="700">VOICE / OPEN SOURCE</text>
-      <text x="919" y="206" fill="#C5DBE5" font-size="12">LiveKit · STT/TTS · tooling</text>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="392" viewBox="0 0 1280 392" role="img" aria-labelledby="ttl dsc">
+<title id="ttl">ZG engineering system topology</title><desc id="dsc">Conceptual engineering topology, illustrating backend, mobile, reliability, voice, and fintech domains connected by recovery and observability principles. Not a real network deployment.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070D18"/><stop offset=".5" stop-color="#091B28"/><stop offset="1" stop-color="#09111C"/></linearGradient>
+<linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123241"/><stop offset="1" stop-color="#121D3A"/></linearGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#59DFFE"/><stop offset=".5" stop-color="#8AFBCF"/><stop offset="1" stop-color="#938FFF"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#45DBFA" stop-opacity=".18"/><stop offset="1" stop-color="#45DBFA" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="392" rx="16" fill="url(#bg)"/><g><path d="M0 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M51 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M102 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M153 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M204 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M255 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M306 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M357 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M408 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M459 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M510 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M561 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M612 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M663 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M714 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M765 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M816 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M867 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M918 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M969 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M1020 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M1071 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M1122 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M1173 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M1224 0V392" stroke="#3D7190" stroke-opacity=".06"/><path d="M1275 0V392" stroke="#3D7190" stroke-opacity=".06"/></g><rect x=".8" y=".8" width="1278.4" height="390.4" rx="15.2" stroke="#28455D" fill="none"/>
+<g font-family="Consolas,'Liberation Mono',monospace">
+<text x="37" y="39" fill="#8FFBD1" font-size="14" letter-spacing="2">DESIGN SPACE // SYSTEM TOPOLOGY</text>
+<text x="1243" y="39" fill="#6F92A9" font-size="12" text-anchor="end">ILLUSTRATIVE CONCEPT — NOT LIVE NETWORK INFRASTRUCTURE</text>
+<path d="M38 56H1242" stroke="#24435E"/>
+<g><path d="M300 147h120q24 0 24 24v19h72" fill="none" stroke="#58D8F0" stroke-opacity=".65" stroke-width="2"/><path d="M300 267h120q24 0 24-24v-19h72" fill="none" stroke="#58D8F0" stroke-opacity=".65" stroke-width="2"/><path d="M764 190h60q24 0 24-24v-19h122" fill="none" stroke="#8CF5C7" stroke-opacity=".65" stroke-width="2"/><path d="M764 224h60q24 0 24 24v19h122" fill="none" stroke="#8CF5C7" stroke-opacity=".65" stroke-width="2"/></g>
+<rect x="44" y="90" width="256" height="111" rx="12" fill="#101F30" stroke="#42748A"/>
+<path d="M44 111v-21h34" stroke="#71DFFC" stroke-width="2" fill="none"/>
+<text x="67" y="127" fill="#65DFF9" font-size="14">01 / BACKEND CORE</text>
+<text x="67" y="154" fill="#F6FCFF" font-size="18" font-family="Arial,sans-serif" font-weight="700">APIs + Services</text>
+<text x="67" y="179" fill="#9FBCC9" font-size="12">Java · Spring · Python</text>
+<rect x="44" y="228" width="256" height="111" rx="12" fill="#101F30" stroke="#42748A"/>
+<path d="M44 249v-21h34" stroke="#71DFFC" stroke-width="2" fill="none"/>
+<text x="67" y="265" fill="#65DFF9" font-size="14">02 / CLIENT SYSTEMS</text>
+<text x="67" y="291" fill="#F6FCFF" font-size="18" font-family="Arial,sans-serif" font-weight="700">Android + Product</text>
+<text x="67" y="317" fill="#9FBCC9" font-size="12">Flutter · Kotlin · local state</text>
+<rect x="970" y="90" width="266" height="111" rx="12" fill="#101F30" stroke="#577B78"/>
+<path d="M1202 90h34v21" stroke="#8FFBD1" stroke-width="2" fill="none"/>
+<text x="993" y="127" fill="#8FFBD1" font-size="14">03 / FINTECH RAILS</text>
+<text x="993" y="154" fill="#F6FCFF" font-size="18" font-family="Arial,sans-serif" font-weight="700">Payments + SDKs</text>
+<text x="993" y="179" fill="#9FBCC9" font-size="12">contracts · callbacks · auth</text>
+<rect x="970" y="228" width="266" height="111" rx="12" fill="#101F30" stroke="#577B78"/>
+<path d="M1202 339h34v-21" stroke="#8FFBD1" stroke-width="2" fill="none"/>
+<text x="993" y="265" fill="#8FFBD1" font-size="14">04 / REALTIME VOICE</text>
+<text x="993" y="291" fill="#F6FCFF" font-size="18" font-family="Arial,sans-serif" font-weight="700">LiveKit + Agents</text>
+<text x="993" y="317" fill="#9FBCC9" font-size="12">STT · TTS · async media</text>
+<circle cx="640" cy="208" r="140" fill="url(#aura)"/>
+<rect x="516" y="112" width="248" height="191" rx="15" fill="url(#core)" stroke="#75E4EF" stroke-width="2"/>
+<rect x="528" y="124" width="224" height="167" rx="9" fill="none" stroke="#597B9A" stroke-dasharray="4 6"/>
+<text x="640" y="152" text-anchor="middle" fill="#8FFBD1" font-size="13" letter-spacing="1.5">ENGINEERING CORE</text>
+<text x="640" y="197" text-anchor="middle" fill="#F6FCFF" font-size="30" font-family="Arial,sans-serif" font-weight="700">RELIABILITY</text>
+<rect x="566" y="213" width="148" height="3" fill="url(#beam)"/>
+<text x="640" y="242" text-anchor="middle" fill="#C9DDE9" font-size="12">retries · idempotency</text>
+<text x="640" y="264" text-anchor="middle" fill="#C9DDE9" font-size="12">tracing · recovery</text>
+<circle cx="516" cy="190" r="5" fill="#59DFFE"/><circle cx="516" cy="224" r="5" fill="#59DFFE"/>
+<circle cx="764" cy="190" r="5" fill="#8FFBD1"/><circle cx="764" cy="224" r="5" fill="#8FFBD1"/>
+<path d="M640 112V74M640 303v35" stroke="#9A92FF" stroke-width="2"/>
+<path d="M615 74h50M615 338h50" stroke="#9A92FF" stroke-width="2"/>
+<text x="640" y="90" text-anchor="middle" fill="#A393FF" font-size="12">FAILURE MODELS</text>
+<text x="640" y="361" text-anchor="middle" fill="#A393FF" font-size="12">OBSERVABILITY</text>
+<text x="37" y="377" fill="#668EA5" font-size="11">OPERATING PRINCIPLE: SIMPLIFY INTERFACES. MODEL FAILURE PATHS. MAKE STATE EXPLICIT.</text>
+</g></svg>
